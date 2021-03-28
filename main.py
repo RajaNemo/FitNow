@@ -9,7 +9,7 @@ while 1:
     breps2 = ("40", "50", "65", "75", "80", "95", "100")
     arms = ("Push ups", "Punches", "Squat+Push up combo")
     legs = ("Squats", "Squat+Sit up combo", "Squat hold", "Squat position punches")
-    abs = ("Situps", "Side leg raises", "Leg raises")
+    eabs = ("Situps", "Side leg raises", "Leg raises")
     counter = input("Are you: 1.Total Beginner, 2.Beginner, 3.Intermediate, 4.Advanced, 5.Master, 6.Fitness guru, 7.Goku")
     betweensets = ("Plank", "Jumping jacks", "Punch+Knee+Kick combo", "Knees")
 
@@ -18,7 +18,7 @@ while 1:
 
     warm = random.choice(arms)
     wleg = random.choice(legs)
-    wabs = random.choice(abs)
+    wabs = random.choice(eabs)
     wpause = random.choice(betweensets)
 
     if counter == "1":
